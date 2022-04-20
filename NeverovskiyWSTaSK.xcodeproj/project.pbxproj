@@ -11,6 +11,16 @@
 		8BC4CD84280FC1730032E7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD83280FC1730032E7FB /* ViewController.swift */; };
 		8BC4CD89280FC1730032E7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD88280FC1730032E7FB /* Assets.xcassets */; };
 		8BC4CD8C280FC1730032E7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD8A280FC1730032E7FB /* LaunchScreen.storyboard */; };
+		8BC4CD95280FC5C00032E7FB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD93280FC5C00032E7FB /* SignInViewController.swift */; };
+		8BC4CD96280FC5C00032E7FB /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD94280FC5C00032E7FB /* SignInViewController.xib */; };
+		8BC4CD99280FCAA50032E7FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD97280FCAA50032E7FB /* MainViewController.swift */; };
+		8BC4CD9A280FCAA50032E7FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD98280FCAA50032E7FB /* MainViewController.xib */; };
+		8BC4CD9D280FDCA60032E7FB /* RaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD9B280FDCA60032E7FB /* RaitingViewController.swift */; };
+		8BC4CD9E280FDCA60032E7FB /* RaitingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD9C280FDCA60032E7FB /* RaitingViewController.xib */; };
+		8BC4CDA5280FE3EA0032E7FB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CDA3280FE3EA0032E7FB /* ProfileViewController.swift */; };
+		8BC4CDA6280FE3EA0032E7FB /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CDA4280FE3EA0032E7FB /* ProfileViewController.xib */; };
+		8BC4CDAA280FE8F80032E7FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CDA8280FE8F80032E7FB /* GameViewController.swift */; };
+		8BC4CDAB280FE8F80032E7FB /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CDA9280FE8F80032E7FB /* GameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		8BC4CD88280FC1730032E7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC4CD8B280FC1730032E7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC4CD8D280FC1730032E7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC4CD93280FC5C00032E7FB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8BC4CD94280FC5C00032E7FB /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		8BC4CD97280FCAA50032E7FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8BC4CD98280FCAA50032E7FB /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8BC4CD9B280FDCA60032E7FB /* RaitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaitingViewController.swift; sourceTree = "<group>"; };
+		8BC4CD9C280FDCA60032E7FB /* RaitingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RaitingViewController.xib; sourceTree = "<group>"; };
+		8BC4CDA3280FE3EA0032E7FB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8BC4CDA4280FE3EA0032E7FB /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		8BC4CDA8280FE8F80032E7FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8BC4CDA9280FE8F80032E7FB /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,11 @@
 		8BC4CD7E280FC1730032E7FB /* NeverovskiyWSTaSK */ = {
 			isa = PBXGroup;
 			children = (
+				8BC4CDA7280FE8E00032E7FB /* Game */,
+				8BC4CDA2280FE3D70032E7FB /* Profile */,
+				8BC4CDA1280FDCD70032E7FB /* Raiting */,
+				8BC4CDA0280FDCC30032E7FB /* Main */,
+				8BC4CD9F280FDCAF0032E7FB /* Sign In */,
 				8BC4CD7F280FC1730032E7FB /* AppDelegate.swift */,
 				8BC4CD83280FC1730032E7FB /* ViewController.swift */,
 				8BC4CD88280FC1730032E7FB /* Assets.xcassets */,
@@ -59,6 +84,51 @@
 				8BC4CD8D280FC1730032E7FB /* Info.plist */,
 			);
 			path = NeverovskiyWSTaSK;
+			sourceTree = "<group>";
+		};
+		8BC4CD9F280FDCAF0032E7FB /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4CD93280FC5C00032E7FB /* SignInViewController.swift */,
+				8BC4CD94280FC5C00032E7FB /* SignInViewController.xib */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		8BC4CDA0280FDCC30032E7FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4CD97280FCAA50032E7FB /* MainViewController.swift */,
+				8BC4CD98280FCAA50032E7FB /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8BC4CDA1280FDCD70032E7FB /* Raiting */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4CD9B280FDCA60032E7FB /* RaitingViewController.swift */,
+				8BC4CD9C280FDCA60032E7FB /* RaitingViewController.xib */,
+			);
+			path = Raiting;
+			sourceTree = "<group>";
+		};
+		8BC4CDA2280FE3D70032E7FB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4CDA3280FE3EA0032E7FB /* ProfileViewController.swift */,
+				8BC4CDA4280FE3EA0032E7FB /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8BC4CDA7280FE8E00032E7FB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4CDA8280FE8F80032E7FB /* GameViewController.swift */,
+				8BC4CDA9280FE8F80032E7FB /* GameViewController.xib */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,8 +189,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC4CDA6280FE3EA0032E7FB /* ProfileViewController.xib in Resources */,
 				8BC4CD8C280FC1730032E7FB /* LaunchScreen.storyboard in Resources */,
+				8BC4CD96280FC5C00032E7FB /* SignInViewController.xib in Resources */,
 				8BC4CD89280FC1730032E7FB /* Assets.xcassets in Resources */,
+				8BC4CDAB280FE8F80032E7FB /* GameViewController.xib in Resources */,
+				8BC4CD9A280FCAA50032E7FB /* MainViewController.xib in Resources */,
+				8BC4CD9E280FDCA60032E7FB /* RaitingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC4CDAA280FE8F80032E7FB /* GameViewController.swift in Sources */,
+				8BC4CDA5280FE3EA0032E7FB /* ProfileViewController.swift in Sources */,
 				8BC4CD84280FC1730032E7FB /* ViewController.swift in Sources */,
+				8BC4CD9D280FDCA60032E7FB /* RaitingViewController.swift in Sources */,
 				8BC4CD80280FC1730032E7FB /* AppDelegate.swift in Sources */,
+				8BC4CD95280FC5C00032E7FB /* SignInViewController.swift in Sources */,
+				8BC4CD99280FCAA50032E7FB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
