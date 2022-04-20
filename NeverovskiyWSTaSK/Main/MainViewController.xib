@@ -139,6 +139,7 @@ Memo</string>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain"/>
                             <connections>
+                                <action selector="goToGame1:" destination="-1" eventType="touchUpInside" id="H8G-i8-iQz"/>
                                 <action selector="goToProfile:" destination="-1" eventType="touchUpInside" id="yGH-g7-pnj"/>
                             </connections>
                         </button>
@@ -179,6 +180,7 @@ Memo</string>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain"/>
                             <connections>
+                                <action selector="goToGame2:" destination="-1" eventType="touchUpInside" id="Yx8-v1-9MZ"/>
                                 <action selector="goToGame:" destination="-1" eventType="touchUpInside" id="8Ef-OW-JUa"/>
                             </connections>
                         </button>
