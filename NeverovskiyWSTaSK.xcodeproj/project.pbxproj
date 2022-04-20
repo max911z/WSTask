@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8BC4CD80280FC1730032E7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD7F280FC1730032E7FB /* AppDelegate.swift */; };
-		8BC4CD82280FC1730032E7FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD81280FC1730032E7FB /* SceneDelegate.swift */; };
 		8BC4CD84280FC1730032E7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CD83280FC1730032E7FB /* ViewController.swift */; };
-		8BC4CD87280FC1730032E7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD85280FC1730032E7FB /* Main.storyboard */; };
 		8BC4CD89280FC1730032E7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD88280FC1730032E7FB /* Assets.xcassets */; };
 		8BC4CD8C280FC1730032E7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CD8A280FC1730032E7FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		8BC4CD7C280FC1730032E7FB /* NeverovskiyWSTaSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverovskiyWSTaSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC4CD7F280FC1730032E7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BC4CD81280FC1730032E7FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8BC4CD83280FC1730032E7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BC4CD86280FC1730032E7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BC4CD88280FC1730032E7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC4CD8B280FC1730032E7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC4CD8D280FC1730032E7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				8BC4CD7F280FC1730032E7FB /* AppDelegate.swift */,
-				8BC4CD81280FC1730032E7FB /* SceneDelegate.swift */,
 				8BC4CD83280FC1730032E7FB /* ViewController.swift */,
-				8BC4CD85280FC1730032E7FB /* Main.storyboard */,
 				8BC4CD88280FC1730032E7FB /* Assets.xcassets */,
 				8BC4CD8A280FC1730032E7FB /* LaunchScreen.storyboard */,
 				8BC4CD8D280FC1730032E7FB /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				8BC4CD8C280FC1730032E7FB /* LaunchScreen.storyboard in Resources */,
 				8BC4CD89280FC1730032E7FB /* Assets.xcassets in Resources */,
-				8BC4CD87280FC1730032E7FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				8BC4CD84280FC1730032E7FB /* ViewController.swift in Sources */,
 				8BC4CD80280FC1730032E7FB /* AppDelegate.swift in Sources */,
-				8BC4CD82280FC1730032E7FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BC4CD85280FC1730032E7FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BC4CD86280FC1730032E7FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BC4CD8A280FC1730032E7FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +275,7 @@
 				INFOPLIST_FILE = NeverovskiyWSTaSK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +302,7 @@
 				INFOPLIST_FILE = NeverovskiyWSTaSK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
