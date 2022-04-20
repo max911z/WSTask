@@ -137,7 +137,7 @@ Memo</string>
                             <rect key="frame" x="0.0" y="0.0" width="342" height="64"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
                             <connections>
                                 <action selector="goToProfile:" destination="-1" eventType="touchUpInside" id="yGH-g7-pnj"/>
                             </connections>
@@ -177,7 +177,7 @@ Memo</string>
                             <rect key="frame" x="0.0" y="0.0" width="342" height="64"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
                             <connections>
                                 <action selector="goToGame:" destination="-1" eventType="touchUpInside" id="8Ef-OW-JUa"/>
                             </connections>
